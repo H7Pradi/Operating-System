@@ -16,6 +16,7 @@ int main()
 		if(status=-1)
 	{
 		printf("Terminated\n");
+  exit(1);
 	}
 	else
 	{
@@ -24,4 +25,4 @@ int main()
 		printf("Done\n");
 	}
 }
-}
+
